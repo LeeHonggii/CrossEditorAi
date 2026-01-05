@@ -1,0 +1,41 @@
+.result-page-container {
+  width: 100%;
+  height: 100%;
+}
+
+.result-page-container .result-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.result-page-container .video-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.result-page-container .download-button {
+  margin-top: 20px;
+  padding: 10px 110px;
+  background-color: var(--flowkitred);
+  color: var(--flowkitwhite);
+  text-decoration: none;
+  border-radius: 40px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+  display: inline-block;
+  align-self: center;
+}
+
+.result-page-container .download-button:hover {
+  background-color: rgba(252, 85, 85, 0.8);
+}

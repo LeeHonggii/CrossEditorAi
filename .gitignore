@@ -182,3 +182,22 @@ node_modules/
 dist/
 build/
 .env
+
+# Project Specific
+analysis_state.pkl
+*.csv
+*.mp4
+*.mp3
+*.json
+.DS_Store
+data_backup/
+
+# Ignore all images
+*.jpg
+*.jpeg
+*.png
+
+# Allow images directory
+!images/
+!images/*
+

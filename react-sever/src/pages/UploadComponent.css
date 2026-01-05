@@ -1,0 +1,109 @@
+.component {
+  border: 1px dashed #ffffff;
+  border-radius: 10px;
+  height: 150px; /* 높이를 줄여 직사각형으로 만듦 */
+  width: 250px; /* 너비를 늘려 직사각형으로 만듦 */
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background-color: #010101; /* 배경색을 검정색으로 설정 */
+}
+
+.component .file-upload-icon,
+.component .video-icon {
+  max-height: 50px;
+  max-width: 50px;
+  position: relative;
+}
+
+.component .loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 50px;
+  height: 50px;
+}
+
+.loader-frame {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  opacity: 0;
+}
+
+.frame1,
+.frame2,
+.frame3,
+.frame4 {
+  display: none;
+}
+
+.frame1.show,
+.frame2.show,
+.frame3.show,
+.frame4.show {
+  display: block;
+  opacity: 1;
+}
+
+.uploaded {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* 상단 정렬 */
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.uploaded .video-icon {
+  max-height: 50px;
+  max-width: 50px;
+}
+
+.uploaded .file-name {
+  color: #ffffff;
+  font-family: "Noto Sans KR-Medium", Helvetica;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 200px; /* 너비 제한 */
+  margin-top: 10px; /* 이미지와 텍스트 사이의 간격 */
+  position: relative;
+  top: 20px; /* 점선 위에 표시되도록 */
+}
+
+.uploaded .remove-icon {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  height: 24px;
+  width: 24px;
+  cursor: pointer;
+}
+.edit-button {
+  background-color: #ff0000; /* 빨간색 배경 */
+  color: #ffffff; /* 글자 색상 */
+  border: none;
+  border-radius: 10px; /* 둥근 모서리 설정 */
+  padding: 10px 30px; /* 좌우 패딩을 늘림 */
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+  position: relative;
+  display: flex;
+  justify-content: center; /* 글자를 가운데로 정렬 */
+  align-items: center; /* 수직 가운데 정렬 */
+}
+
+.edit-button:hover {
+  background-color: #cc0000; /* 호버 시 어두운 빨간색 */
+}

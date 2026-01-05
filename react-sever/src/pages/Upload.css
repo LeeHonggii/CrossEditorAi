@@ -1,0 +1,83 @@
+.upload-page-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.upload-page-container .page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.upload-page-container .div-2 {
+  max-width: 800px;
+  width: 100%;
+}
+
+.upload-page-container .text-wrapper-2,
+.upload-page-container .text-wrapper-3,
+.upload-page-container .p,
+.upload-page-container .text-wrapper-4 {
+  margin-bottom: 10px;
+  color: #ffffff;
+  text-align: left;
+}
+
+.upload-page-container .text-wrapper-2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.upload-page-container .text-wrapper-3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.upload-page-container .p {
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.upload-page-container .text-wrapper-4 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.upload-page-container .components-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.upload-page-container .row {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.upload-page-container .edit-button {
+  background-color: #ff0000;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 30px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.upload-page-container .edit-button:hover {
+  background-color: #cc0000;
+}

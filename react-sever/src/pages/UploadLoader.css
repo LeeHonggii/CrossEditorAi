@@ -1,0 +1,106 @@
+.box {
+  height: 123px;
+  position: relative;
+  width: 538px;
+}
+
+.box .loader-2 {
+  border: 1px dashed;
+  border-color: #9747ff;
+  border-radius: 5px;
+  height: 123px;
+  left: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 538px;
+}
+
+.box .property-frame {
+  height: 123px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 134px;
+}
+
+.box .group-2 {
+  height: 61px;
+  left: 40px;
+  position: relative;
+  top: 29px;
+  width: 55px;
+}
+
+.box .ellipse-5 {
+  background-color: #ee4d4d;
+  border-radius: 5.75px;
+  height: 12px;
+  left: 22px;
+  position: absolute;
+  top: 8px;
+  width: 12px;
+}
+
+.box .ellipse-6 {
+  background-color: #ffffff;
+  border-radius: 16.92px;
+  height: 34px;
+  left: 12px;
+  position: absolute;
+  top: 27px;
+  width: 34px;
+}
+
+.box .loader-1 {
+  left: 134px !important;
+  position: absolute !important;
+  top: 0 !important;
+}
+
+.box .loader-instance {
+  border-radius: unset !important;
+}
+
+.box .group-wrapper {
+  height: 123px;
+  left: 269px;
+  position: absolute;
+  top: 0;
+  width: 134px;
+}
+
+.box .group-3 {
+  height: 59px;
+  left: 40px;
+  position: relative;
+  top: 29px;
+  transform: rotate(-180deg);
+  width: 55px;
+}
+
+.box .ellipse-7 {
+  background-color: #ffffff;
+  border-radius: 17.1px;
+  height: 34px;
+  left: 11px;
+  position: absolute;
+  top: 0;
+  width: 34px;
+}
+
+.box .ellipse-8 {
+  background-color: #ee4d4d;
+  border-radius: 5.55px;
+  height: 11px;
+  left: 23px;
+  position: absolute;
+  top: 39px;
+  width: 11px;
+}
+
+.box .loader-1-instance {
+  left: 403px !important;
+  position: absolute !important;
+  top: 0 !important;
+}
